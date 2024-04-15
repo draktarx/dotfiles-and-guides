@@ -19,6 +19,14 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 # Last command as sudo
 alias fak='sudo $(fc -ln -1)'
 
+# Folders navigation
+alias ..="cd .."
+alias ..2="cd ../.."
+alias ..3="cd ../../.."
+alias ..4="cd ../../../.."
+alias ~="cd ~"
+alias -- -="cd -"  # last directory
+
 # Git
 alias ga="git add"
 alias gaa="git add --all"
