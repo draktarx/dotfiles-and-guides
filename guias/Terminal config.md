@@ -87,3 +87,6 @@
 # Warp
 Warp is a modern, Rust-based terminal
 https://docs.warp.dev/
+
+## Shortcuts
+https://docs.warp.dev/features/keyboard-shortcuts
