@@ -3,8 +3,6 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="spaceship"
 
 plugins=(
-  git
-  sudo
   web-search
   zsh-autosuggestions
   zsh-syntax-highlighting
@@ -18,5 +16,28 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
 
+# Last command as sudo
+alias fak='sudo $(fc -ln -1)'
+
 # Git
-alias gpush='git add . && git commit -m "$1" && git push'
+alias ga="git add"
+alias gaa="git add --all"
+alias gst="git status"
+alias gsb="git status --short -b"
+
+# Custom functions
+
+gall() {
+  git add --all
+  git commit -m "$1"
+}
+
+gpush() {
+  git add --all
+  git commit -m "$1"
+  git push
+}
+
+gundo() {
+    git reset HEAD~
+}
