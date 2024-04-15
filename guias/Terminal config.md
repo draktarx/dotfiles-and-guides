@@ -83,3 +83,7 @@
 
 - zsh-syntax-highlighting
   https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
+
+# Warp
+Warp is a modern, Rust-based terminal
+https://docs.warp.dev/
