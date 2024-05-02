@@ -18,6 +18,8 @@ https://google.github.io/styleguide/javaguide.html
 
 https://www.oracle.com/technetwork/java/codeconventions-150003.pdf
 
+https://rules.sonarsource.com/java/?search=order
+
 ## Recursos
 
 https://dev.java/learn/
